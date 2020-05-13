@@ -81,7 +81,7 @@
                                 <td>${car.getCantidad()}</td>
                                 <td>${car.getSubTotal()}</td>
                                 <td>
-                                    <input type="hidden" i="idp" value="${car.getIdProducto()}" >
+                                    <input type="hidden" id="idp" value="${car.getIdProducto()}" >
                                     <a href="#" id="btnDelete" >Eliminar</a>
                                 </td>
                             </tr>
