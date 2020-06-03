@@ -5,7 +5,7 @@
  */
 package deidan.controlador;
 
-import deidan.modelo.ProductoDAO;
+import deidan.modeloDAO.ProductoDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
