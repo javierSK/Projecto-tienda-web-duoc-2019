@@ -10,73 +10,73 @@ package deidan.modelo;
  * @author bryan
  */
 public class Cliente {
-    private int id;
-    private String rut;
-    private String nombre;
-    private String direccion;
-    private String correo;
-    private String password;
+    private int Id;
+    private String   Dni;   
+    private String   Nombre;
+    private String Direccion;
+    private String Correo;
+    private String Password;
 
     public Cliente() {
     }
 
-    public Cliente(int id, String rut, String nombre, String direccion, String correo, String password) {
-        this.id = id;
-        this.rut = rut;
-        this.nombre = nombre;
-        this.direccion = direccion;
-        this.correo = correo;
-        this.password = password;
+    public Cliente(int Id, String Dni, String Nombre, String Direccion, String Correo, String Password) {
+        this.Id = Id;
+        this.Dni = Dni;
+        this.Nombre = Nombre;
+        this.Direccion = Direccion;
+        this.Correo = Correo;
+        this.Password = Password;
     }
 
     public int getId() {
-        return id;
+        return Id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(int Id) {
+        this.Id = Id;
     }
 
-    public String getRut() {
-        return rut;
+    public String getDni() {
+        return Dni;
     }
 
-    public void setRut(String rut) {
-        this.rut = rut;
+    public void setDni(String Dni) {
+        this.Dni = Dni;
     }
 
     public String getNombre() {
-        return nombre;
+        return Nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
     }
 
     public String getDireccion() {
-        return direccion;
+        return Direccion;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    public void setDireccion(String Direccion) {
+        this.Direccion = Direccion;
     }
 
     public String getCorreo() {
-        return correo;
+        return Correo;
     }
 
-    public void setCorreo(String correo) {
-        this.correo = correo;
+    public void setCorreo(String Correo) {
+        this.Correo = Correo;
     }
 
     public String getPassword() {
-        return password;
+        return Password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPassword(String Password) {
+        this.Password = Password;
     }
-    
-    
+
+   
     
 }

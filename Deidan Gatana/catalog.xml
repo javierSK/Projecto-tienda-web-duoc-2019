@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/Deidan_Gatana/Services?wsdl" uri="src/conf/xml-resources/web-service-references/Services/wsdl/localhost_8080/Deidan_Gatana/Services.wsdl"/>
+    <system systemId="http://localhost:8080/Deidan_Gatana/Services?xsd=1" uri="src/conf/xml-resources/web-service-references/Services/wsdl/localhost_8080/Deidan_Gatana/Services.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/Deidan_Gatana/Servicios?wsdl" uri="src/conf/xml-resources/web-service-references/Servicios/wsdl/localhost_8080/Deidan_Gatana/Servicios.wsdl"/>
+    <system systemId="http://localhost:8080/Deidan_Gatana/Servicios?xsd=1" uri="src/conf/xml-resources/web-service-references/Servicios/wsdl/localhost_8080/Deidan_Gatana/Servicios.xsd_1.xsd"/>
+</catalog>

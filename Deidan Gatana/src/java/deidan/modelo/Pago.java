@@ -5,7 +5,10 @@
  */
 package deidan.modelo;
 
-
+/**
+ *
+ * @author bryan
+ */
 public class Pago {
     private int id;
     private Double monto;
@@ -33,6 +36,7 @@ public class Pago {
     public void setMonto(Double monto) {
         this.monto = monto;
     }
+    
     
     
     
