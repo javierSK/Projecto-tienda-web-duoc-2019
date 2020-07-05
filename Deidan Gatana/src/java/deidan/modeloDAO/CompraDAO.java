@@ -8,6 +8,8 @@ package deidan.modeloDAO;
 import deidan.config.conexion;
 import deidan.modelo.Carrito;
 import deidan.modelo.Compras;
+import java.io.Console;
+import static java.lang.System.console;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -36,7 +38,7 @@ public class CompraDAO {
             ps.setDouble(3, compras.getMonto());
             ps.setString(4, compras.getEstado());
             ps.setInt(5, compras.getIdpago());
-            ps.executeUpdate();
+            r=ps.executeUpdate();
             
             sql="Select @@IDENTITY AS idCompras";
             rs=ps.executeQuery(sql);
@@ -51,11 +53,12 @@ public class CompraDAO {
                 ps.setInt(2, idcompras);
                 ps.setInt(3, detalle.getCantidad());
                 ps.setDouble(4, detalle.getPrecioCompra());
-                ps.executeUpdate();
+                r=ps.executeUpdate();
+                
             }
             
         }catch(Exception e){
-            
+           
         }
         
         
